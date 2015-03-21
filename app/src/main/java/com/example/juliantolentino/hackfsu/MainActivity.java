@@ -30,7 +30,6 @@ public class MainActivity extends ActionBarActivity implements LocationListener 
         mMap = ((MapFragment)getFragmentManager().findFragmentById(R.id.map)).getMap();
         LocationManager locationManager;
 
-// Get the LocationManager object from the System Service LOCATION_SERVICE
         locationManager = (LocationManager)getSystemService(LOCATION_SERVICE);
 
 // Create a criteria object needed to retrieve the provider
